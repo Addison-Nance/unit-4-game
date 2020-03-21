@@ -1,0 +1,22 @@
+.instructbox{
+    height:400px;
+    width:300px;
+}
+/* .container{
+    background-image: url("assets/images/background1.jpg");
+    height:100%;
+    width:100%;
+
+} */
+.gem1{
+    float:left;
+}
+.gem2{
+    float:left;
+}
+.gem3{
+    float:left;
+}
+.gem4{
+    float:left;
+}
