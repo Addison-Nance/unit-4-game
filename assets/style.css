@@ -1,13 +1,14 @@
-.instructbox{
+.instructorbox{
     height:400px;
-    width:300px;
+    width:500px;
+    text-align:center;
+    /* float:left;
+    clear:both; */
+    text-shadow: -.5px -.5px 0 rgb(255, 255, 255), .5px -.5px 0 rgb(255, 255, 255), -.5px .5px 0 rgb(255, 255, 255), .5px .5px 0 rgb(255, 255, 255);
 }
-/* .container{
-    background-image: url("assets/images/background1.jpg");
-    height:100%;
-    width:100%;
-
-} */
+.gamebox{
+    display:block;
+}
 .gem1{
     float:left;
 }
@@ -19,4 +20,60 @@
 }
 .gem4{
     float:left;
+
+
 }
+.gembox{
+    height:auto;
+    width:auto;
+}
+.container3{
+    float:left;
+    border:2px solid black;
+    height:50px;
+    width:75px;
+    background-color:white;
+    padding-left:10px;
+    padding-top:10px;
+}
+.container4{
+    float:left;
+    border:2px solid black;
+    height:50px;
+    width:75px;
+    float:left;
+    background-color: white;
+    padding-left:10px;
+    padding-top:10px;
+}
+.container2{
+    height:50px;
+    width:75px;
+    border:2px solid black;
+    float:left;
+    background-color:white;
+    padding-left:10px;
+    padding-top:10px;
+}
+.scorebox{
+    border:2px solid black;
+    height:50px;
+    width:75px;
+    float:left;
+    background-color:white;
+    padding-top:10px;
+    padding-left:10px;
+
+}
+.container5{
+    display:block;
+    height:54px;
+    width:158px;
+    background-color:white;
+    float:left;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
