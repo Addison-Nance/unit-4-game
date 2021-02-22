@@ -24,7 +24,7 @@ $(document).ready(function() {
   $("#gem1").on("click", function() {
     score += gem1;
     console.log(score);
-    $("#scorebox").text("Wins: " + score);
+    $("#scorebox").text("Score: " + score);
 
     if (score > goal) {
       console.log("loser");
